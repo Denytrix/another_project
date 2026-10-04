@@ -7,6 +7,13 @@ export const dishes = [
   { id: 6, category: 'Drinks', name: 'Ginger Citrus Spritz', description: 'Fresh ginger, grapefruit, lime and sparkling water.', price: 8, image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=900&q=85' },
 ]
 
+export const restaurant = {
+  name: 'Savor & Soul',
+  address: '18 Willow Lane, Accra, Ghana',
+  phone: '+233 20 555 0148',
+  email: 'hello@savorandsoul.example',
+}
+
 export const gallery = [
   'https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=1000&q=85', 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1000&q=85',
   'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1000&q=85', 'https://images.unsplash.com/photo-1498654896293-37aacf?auto=format&fit=crop&w=1000&q=85',

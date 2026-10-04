@@ -10,8 +10,10 @@ import OrderOnline from './pages/OrderOnline.jsx'
 import './App.css'
 
 function App() {
+  const basename = import.meta.env.PROD ? '/another_project' : '/'
+
   return (
-    <BrowserRouter><Layout><Routes>
+    <BrowserRouter basename={basename}><Layout><Routes>
       <Route path="/" element={<Home />} /><Route path="/menu" element={<Menu />} />
       <Route path="/about" element={<About />} /><Route path="/reservations" element={<Reservations />} />
       <Route path="/gallery" element={<Gallery />} /><Route path="/contact" element={<Contact />} />
